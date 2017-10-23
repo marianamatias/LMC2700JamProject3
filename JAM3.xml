@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!--
+
+This is a Cringy Valentines Day Card, Rhyme
+
+-->
+<grammar>
+	<main>
+		<s>
+Dear <extern grammar="name.xml" source="male_name" />,
+   <Phrase1/>
+   <BlueObject/>
+   <Statement/>
+   And I <Love/> you!
+	<Signoff/>,
+		<extern grammar="name.xml" source="female_name" />
+		</s>
+	</main>
+
+
+	<Phrase1>
+		<s><RedObject/></s>
+		<s><YellowObject/></s>
+		<s><GreenObject/></s>
+	</Phrase1>
+
+	<RedObject>
+		<s>Roses are red</s>
+		<s>Swedish fish are red</s>
+		<s>Strawberries are red</s>
+		<s>Red meats are red</s>
+		<s>Crabs are red</s>
+		<s>Cherries are red</s>
+		<s>Fire Trucks are red</s>
+		<s>Blood cells are red</s>
+		<s>Pokemon balls are red</s>
+		<s>Tomatoes are red</s>
+		<s>Youtube is red</s>
+	</RedObject>
+
+	<BlueObject>
+		<s>Blueberries are blue</s>
+		<s>Facebook's logo is blue</s>
+		<s>Blue Man Group paints themselves blue</s>
+		<s>Katie Perry's hair is blue (sometimes)</s>
+		<s>Saphires are blue</s>
+		<s>Sully from Monster's Inc is blue</s>
+		<s>Jellyfish are blue</s>
+		<s>Some poisonous frogs are blue</s>
+		<s>Blue cheese is kind of blue? </s>
+	</BlueObject>
+
+	<GreenObject>
+		<s>Grass is green</s>
+		<s>Money is green</s>
+		<s>Broccoli is green</s>
+		<s>Mike from Monster's Inc is green</s>
+		<s>The Facetime icon is green</s>
+		<s>Cacti are green</s>
+		<s>Kermit the frog is green</s>
+		<s>The Grinch is green</s>
+	</GreenObject>
+
+	<YellowObject>
+		<s>Rubber ducks are yellow</s>
+		<s>Your pee should be yellow</s>
+		<s>Corn is yellow</s>
+		<s>Spongebob is yellow</s>
+		<s>Bananas are yellow</s>
+		<s>Fries are yellow</s>
+		<s>McDonalds is yellow</s>
+		<s>Cheese is yellow</s>
+	</YellowObject>
+
+	<Statement>
+		<s>The Nike clothing brand is named after the Greek goddess of victory.</s>
+		<s>John Travolta is not Italian</s>
+		<s>Our sun will die out in 5 billion years</s>
+		<s>France has 12 timezones</s>
+		<s>Coca Cola is not sold in Cuba or North Korea</s>
+		<s>Where Ross and Rachel WERE ON A BREAK!</s>
+	</Statement>
+
+
+	<Love>
+		<s>heart</s>
+		<s>love</s>
+		<s>adore</s>
+		<s>admire</s>
+		<s>like</s>
+		<s>care for</s>
+		<s>worship</s>
+		<s>am devoted to</s>
+	</Love>
+
+	<Signoff>
+		<s>XOXO</s>
+		<s>Goodbye</s>
+		<s>Peace Out</s>
+		<s>Love ya</s>
+		<s>C U SOON</s>
+		<s>Salutations</s>
+		<s>Can't wait to see you</s>
+		<s>Temporarily yours</s>
+	</Signoff>
+
+</grammar>
